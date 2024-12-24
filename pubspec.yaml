@@ -1,0 +1,25 @@
+name: api_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  retrofit: ^4.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.0
+  retrofit_generator:
+
+
+flutter:
+  uses-material-design: true
